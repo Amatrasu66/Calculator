@@ -1,0 +1,66 @@
+div
+{
+    /* border: 2px solid black; */
+}
+
+.box1
+{
+    height: 100vh;
+    margin: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.display_lable
+{
+
+    max-width: 500px;
+    padding: 2rem;
+    overflow: hidden;
+    border-radius: 2rem;
+    width: 30rem;
+    background-color: hsl(0, 0%, 0%);
+}
+.row
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+button
+{
+    height: 6rem;
+    width: 6rem;
+    font-size: 2rem;
+    font-family: monospace;
+    font-weight: bolder;
+    border-radius: 5rem;
+    cursor: pointer;
+    padding: 1rem;
+    margin: 0;
+    border: none;
+    background-color: hsl(0, 0%, 50%);
+}
+
+.buttons
+{
+    height: 100%;
+
+}
+
+.lable
+{
+    width: 100%;
+    border: none;
+    text-align: right;
+    font-size: 5rem;
+    font-family: monospace;
+    padding-bottom: ;
+    font-weight: bolder;
+    background-color: hsl(0, 0%, 25%);
+    color: aliceblue;
+}
